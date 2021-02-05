@@ -12,6 +12,8 @@
 		F6DC582D25CDB8ED00D8FF48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6DC582C25CDB8ED00D8FF48 /* Assets.xcassets */; };
 		F6DC583025CDB8ED00D8FF48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6DC582F25CDB8ED00D8FF48 /* Preview Assets.xcassets */; };
 		F6DC583325CDB8ED00D8FF48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6DC583125CDB8ED00D8FF48 /* Main.storyboard */; };
+		F6DC584025CDCEFC00D8FF48 /* LoginPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DC583F25CDCEFC00D8FF48 /* LoginPanel.swift */; };
+		F6DC584325CDEE0E00D8FF48 /* LoginSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DC584225CDEE0E00D8FF48 /* LoginSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		F6DC583225CDB8ED00D8FF48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6DC583425CDB8ED00D8FF48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6DC583525CDB8ED00D8FF48 /* macos_client.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macos_client.entitlements; sourceTree = "<group>"; };
+		F6DC583F25CDCEFC00D8FF48 /* LoginPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPanel.swift; sourceTree = "<group>"; };
+		F6DC584225CDEE0E00D8FF48 /* LoginSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				F6DC583425CDB8ED00D8FF48 /* Info.plist */,
 				F6DC583525CDB8ED00D8FF48 /* macos_client.entitlements */,
 				F6DC582E25CDB8ED00D8FF48 /* Preview Content */,
+				F6DC583F25CDCEFC00D8FF48 /* LoginPanel.swift */,
+				F6DC584225CDEE0E00D8FF48 /* LoginSettings.swift */,
 			);
 			path = "macos-client";
 			sourceTree = "<group>";
@@ -144,6 +150,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6DC584325CDEE0E00D8FF48 /* LoginSettings.swift in Sources */,
+				F6DC584025CDCEFC00D8FF48 /* LoginPanel.swift in Sources */,
 				F6DC582B25CDB8EB00D8FF48 /* ContentView.swift in Sources */,
 				F6DC582925CDB8EB00D8FF48 /* AppDelegate.swift in Sources */,
 			);
